@@ -59,7 +59,7 @@ Install the plugin with your preferred package manager:
 **[Lazy.nvim](https://github.com/folke/lazy.nvim)**
 
 ```lua
-{
+return {
   "olimorris/codecompanion.nvim",
   dependencies = {
     "nvim-lua/plenary.nvim",
